@@ -2,3 +2,15 @@ to start run npm install
 then run npm start
 1st thing get express up and running with a page
 2nd get it up on git so others can work on it
+3rd get a simple test returning a 200
+
+stopped at step 3 was looking at zombie
+
+after this I would try to add handlebars or hogan get proper web pages returning
+then split the page out between a list container then and pageination container
+
+then I would add npm request to make request to the api
+
+then look at adding some local storage
+
+while writing tests as I go
