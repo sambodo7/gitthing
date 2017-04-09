@@ -3,14 +3,13 @@
 
 const { defineSupportCode } = require( "cucumber" );
 
-defineSupportCode( function( { When, Then } ) {
+defineSupportCode( function( { Given, When, Then } ) {
 
     When('I make a request to the server', function (callback) {
-        // Write code here that turns the phrase above into concrete actions
-        callback(null, 'pending');
+        this.browser.visit( "/", callback );
     } );
     
-    Then('I should recieve a status {arg1:int} back', function (arg1, callback) {
+    Then('I should recieve a status {int} back', function (arg1, callback) {
         // Write code here that turns the phrase above into concrete actions
         callback(null, 'pending');
     });
