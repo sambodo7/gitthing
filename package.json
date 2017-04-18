@@ -10,10 +10,12 @@
   "author": "sam",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.0"
+    "express": "^4.15.0",
+    "react": "^15.5.4"
   },
   "devDependencies": {
     "cucumber": "^2.0.0-rc.9",
+    "webpack": "^2.4.1",
     "zombie": "^5.0.5"
   }
 }
