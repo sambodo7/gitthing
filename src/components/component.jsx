@@ -6,7 +6,7 @@ export class MainBody extends Component {
 
 	render() {
 
-		return <div>Hello World<div>		
+		return <div>Hello World</div>		
 
 	}
 
